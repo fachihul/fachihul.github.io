@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: grey;
+}
+main {
+  max-width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+
+.left {
+  background-image: url("../img/bg-left.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 617px;
+}
+.right,
+.left {
+  width: 50%;
+  /* display: flex; */
+  /* padding: 60px 0; */
+  position: relative;
+}
+.right .form_content {
+  margin: auto;
+  text-align: center;
+}
+img.group-01 {
+  position: absolute;
+  right: 0;
+  top: -120px;
+  width: 67px;
+}
+img.group-02 {
+  position: absolute;
+  left: 2px;
+  bottom: -120px;
+  width: 67px;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  width: 60%;
+  margin: auto;
+}
+fieldset > div {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  padding: 5px 10px;
+}
+.bottom_checkbox {
+  display: flex;
+  justify-content: flex-start;
+}
+.bottom_checkbox p {
+  text-align: left;
+  font-size: 12px;
+}
+input[type="checkbox"] {
+  width: 70px;
+  margin-right: 20px;
+}
+button {
+  background: #03a9f4;
+  border: 1px solid #cccccc;
+  width: 100%;
+  padding: 5px;
+  box-shadow: 2px 4px 6px rgba(79, 79, 79, 0.15);
+  border-radius: 15px;
+  color: white;
+}
+.logo {
+  margin: 20px auto auto 20px;
+  padding: 0;
+}
+.social_signup {
+  width: 60%;
+  margin: 130px auto;
+}
+.social_signup button {
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+.social_signup button img {
+  width: 16px;
+}
